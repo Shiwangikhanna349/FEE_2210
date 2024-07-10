@@ -1,0 +1,10 @@
+h3{
+  background-color:rgb(193, 230, 193);
+  border: 1px solid green;
+  font-size: 30px;
+  text-align: center;
+}
+p{
+  background-color: pink;
+  padding: 20px;
+}
