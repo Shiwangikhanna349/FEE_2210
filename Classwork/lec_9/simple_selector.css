@@ -1,0 +1,33 @@
+/*1. universal selector */
+*{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+/* 2. Id selector */
+#Superheros{
+background-color: pink;
+font-weight: 800;
+font-size: 30px;
+text-align: center;
+}
+/* 3. class selectors */
+.super{
+  color: blue;
+  font-weight: 800;
+}
+/* 4. element selector */
+h1{
+  color:rgb(96, 214, 96);
+  font-size: 30px;
+  text-decoration: line-through;
+}
+/* 5.  attribute selector */
+input[type="text"]{
+ background-color: rgb(169, 169, 206);
+ border: none;
+}
+input[type="password"]{
+  background-color: rgb(157, 212, 157);
+  border: none;
+ }
+ 
