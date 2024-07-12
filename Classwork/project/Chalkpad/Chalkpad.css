@@ -3,9 +3,11 @@
   padding:0px;
 }
 body{
-  background: url(../../Images//Chitkara_University_pic.jpg)  no-repeat center center;
-  /* position: fixed; */
- background-size: cover;
+  background-image:url(../../../Images/Chitkara_University_pic.jpg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
  
   
 }
@@ -27,7 +29,10 @@ body{
   background-color: #ffffff;
   border: 2px solid #cccccc;
   float: right;
-  margin: 90px 190px;
+  /* margin: 90px 190px; */
+  margin:100px;
+  margin-right: 145px;
+  margin-top: 80px;
   
 }
  .main_div> img{
@@ -37,9 +42,11 @@ body{
 .form>form{
   padding: 20px;
 }
+label{
+  font-size: 15px;
+  font-family: Arial;
+}
 .form>form>input{
-  /* width: 90%;
-  font-size: 16px; */
   border: 1px solid #7f9db9;
     height: 22px;
     width: 220px;
@@ -74,7 +81,6 @@ a{
 }
 .icon{
   margin: 10px 0px 0px 60px;
-
   display: flex;
   gap: 30px;
 }

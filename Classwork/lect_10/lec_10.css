@@ -1,0 +1,18 @@
+/* decendent combinator selector */
+/* here a tag is the decendent for the ul  */
+ul li a{
+  color:red;
+  font-size: 20px;
+}
+/* class combinators */
+ol>li{
+  background-color: rgb(188, 163, 211);
+}
+/* adjacent  flow is downside */
+h2+p{
+  background-color: pink;
+}
+div~p{
+  background-color: rgb(108, 108, 199);
+  font-size: 30px;
+}
