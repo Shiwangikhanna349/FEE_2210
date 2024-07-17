@@ -1,0 +1,12 @@
+body{
+  border:2px solid black;
+  padding: 0px;
+  margin:0px;
+}
+div{
+  /* top left-right and bottom */
+  padding: 20px 10px 5px;
+  /* top,left-right and bottom ,we can also relate it with chocolate eg like main chocolate is content and golden foil is padding and then white wrapper is border and then main wraper is margin */
+  margin:25px 15px 5px;
+  border:2px solid red;
+}

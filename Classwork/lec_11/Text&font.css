@@ -1,0 +1,8 @@
+/* text align includes main:justify ,inherit and other that this it also includes center, start, end ,right and left*/
+h2{
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-style: wavy;
+}
