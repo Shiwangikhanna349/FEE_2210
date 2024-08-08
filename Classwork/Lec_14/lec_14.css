@@ -1,0 +1,24 @@
+section{
+  border:2px solid black;
+  padding: 1rem;
+}
+h1{
+  font-size: 3rem;
+}
+/* media queries */
+@media (max-width:520px){
+  section{
+    background-color: rgb(185, 150, 218);
+    color: white;
+  }
+  h1{
+    text-align: center;
+  }
+  @media(orientation:portrait){
+    section{
+      color:brown;
+      background-color: aquamarine;
+      font-weight: 400px;
+    }
+  }
+}

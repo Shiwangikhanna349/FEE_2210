@@ -1,0 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+
+}
+ul{
+  list-style-type: none;
+}
+.main>nav{
+  display: flex;
+ 
+  justify-content: center;
+  gap: 100px;
+}
+.main>nav>ul{
+  display: flex;
+  justify-content: space-between;
+gap: 100px;
+
+}
+
+.main{
+  background-color: rgb(194, 173, 214);
+  padding: 20px;
+  
+}
