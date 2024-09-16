@@ -69,14 +69,13 @@
 // ];
 // console.log(arr[1].name.class);
 // merging 2 objects
-let obj1={name1:"Kavya",age1:25}
-let obj2={name2:"Shiwangi",age:18}
+// let obj1={name1:"Kavya",age1:25}
+// let obj2={name2:"Shiwangi",age:18}
 
 // let obj3={...obj1, ...obj2};
 // in case of constructor we do using assign and in literals we us spread operator
-let obj4=Object.assign(obj1,obj2);
-console.log(obj4);
-
+// let obj4=Object.assign(obj1,obj2);
+// console.log(obj4);
 
 
 
