@@ -19,6 +19,7 @@
 // console.log(Object.prototype.__proto__);     //null because by default the value of first class object is null
 var num=20;
 console.log(num.__proto__=Number.prototype.__proto__); // it shows all the datatypes are objects 
+// DOM
 // window.document 
 // in the global context the global variable is created and all the  functionality are stored in this
 // document.getElementsByTagName("h1");   to access the tags etc.in the global variable
