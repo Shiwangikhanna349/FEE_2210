@@ -1,3 +1,4 @@
+
 // function termination: 1. till the function defination it execute and after that it will terminate the function 2. return keyword
 // return is used to terminate the execution of a function
 // function info(name,age){
