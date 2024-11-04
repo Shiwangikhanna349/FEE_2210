@@ -77,6 +77,103 @@
 // let obj4=Object.assign(obj1,obj2);
 // console.log(obj4);
 
+// let product=[
+//   {
+//     id:1,
+//     info:{
+//       name:"Shiwangi",
+//       age:18
+//     }
+//   },
+//   {
+//     id:2,
+//     info:{
+//       name:"mehak",
+//       age:19,
+//       moreDetails:{
+//         address:"UNA"
+//       }
+//     }
+//   }
+// ];
+// console.log(product[1].info.moreDetails.address);
+
+
+// function printName(func,num){
+//   for(let i=0;i<=10;i++){
+//     func();
+//   }
+// };
+// let name=function(){
+//   console.log("yash");
+// }
+// printName(name,20);
+
+
+// function evenOrOdd(func,num){
+//   for(let i=0;i<num;i++){
+// func(i);
+//   }
+// }
+// let even=function(num){
+// if(num%2==0){
+//   console.log(num);
+// }
+// else{
+//   console.log("odd");
+// }
+// }
+// evenOrOdd(even,20);
+
+// let Cart=[
+//   {
+//     id:1,
+//     name:"Iphone 15",
+//     price:84000,
+//     qty:2
+//   },
+//   {
+//     id:2,
+//     name:"Iphone 16",
+//     price:164000,
+//     qty:1
+//   }
+// ];
+// let ans=Cart.reduce(function(sum,item){
+//   return sum+item.price*item.qty;
+// },0);
+// console.log(ans);
+
+// function sum(a,b){
+// console.log(a+b);
+// }
+// sum(10,20);
+//  let add=(a,b)=>{
+// console.log(a+b);
+// };
+// add(10,20);
+
+// array methods
+// let arr=[1,2,3,4];
+// for each
+// arr.forEach(num=>console.log(num*2));
+// let ans=arr.map(num=>num*2);
+// console.log(ans);
+// let filter=arr.filter(num=>num%2==0);
+// console.log(filter);
+
+// let reduce=arr.reduce((sum,num)=>sum+num,0);
+// console.log(reduce);
+
+
+// function func1(){
+// console.log("first");
+// }
+// function func2(call){
+//   console.log("second");
+//   call;
+// }
+// func2(func1);
 
 
 
